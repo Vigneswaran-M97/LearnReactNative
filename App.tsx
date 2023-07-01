@@ -3,6 +3,7 @@ import Flatcards from './screen/FlatCard';
 import ElevatedCards from './screen/ElevatedCard';
 import FancyCard from './screen/FancyCard';
 import BlogCard from './screen/BlogCard';
+import ContactCard from './screen/ContactCard';
 
 const App = (): JSX.Element => {
   return (
@@ -11,7 +12,9 @@ const App = (): JSX.Element => {
         <Flatcards />
         <ElevatedCards />
         <FancyCard />
-        {/* <BlogCard/> */}
+        
+        <BlogCard/>
+        <ContactCard/>
       </ScrollView>
     </SafeAreaView>
   );

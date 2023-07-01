@@ -17,10 +17,10 @@ const FancyCardStyles = StyleSheet.create({
   Card: {
     justifyContent: 'center',
     alignItems: 'center',
-    width: 350,
-    height: 360,
+    width: wp('82%'),
     borderRadius: 20,
     marginHorizontal: 38,
+    paddingBottom:20,
     marginBottom:20
   },
   CardElever1: {
