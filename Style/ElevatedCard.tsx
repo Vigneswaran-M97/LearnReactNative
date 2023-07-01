@@ -2,15 +2,15 @@ import {StyleSheet} from 'react-native';
 
 const ElevatedCardsStyle = StyleSheet.create({
   Headings: {
-    padding: 10,
-    color: 'black',
     textAlign: 'center',
     fontSize: 24,
     fontWeight: 'bold',
     paddingHorizontal: 8,
+    marginBottom:8,
+    marginTop:18
   },
   Container: {
-    paddingTop: 10,
+    paddingTop: 5,
   },
   CardElevated: {},
   CardImage: {

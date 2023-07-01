@@ -2,15 +2,15 @@ import { StyleSheet } from "react-native";
 
 const FlatCardStyles = StyleSheet.create({
     Headings:{
-        padding:10,
-        color:'black',
         textAlign:'center',
         fontSize:24,
         fontWeight:'bold',
         paddingHorizontal:8,
+        marginBottom:8,
+        marginTop:8
     },
     Container:{
-        paddingTop:15,
+        paddingTop:5,
     },
     CardImage:{
         height:70,
